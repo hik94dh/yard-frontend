@@ -12,18 +12,19 @@ a{
 }
 body{
     min-width: 320px;
+    background: #eaebf0 url(../img/pattern.png) repeat;
 
 }
 header{
     padding: 20px 0;
+    background-color: #ffffff;
 }
 h2, p, h3, h4{
     margin: 0;
 }
 
 .container{
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1168px;
     margin: 0 auto;
 }
 .compass-logo {
@@ -41,12 +42,13 @@ h2, p, h3, h4{
   color: var(--charcoal-grey);
   margin-left: 2rem;
 }
-
+.header-menu_link:hover{
+  opacity: 0.8;
+}
 
 .subheader{
     background-color: #161616;
 }
-
 
 .compass-development-logo {
   width: 418.9px;
@@ -56,7 +58,7 @@ h2, p, h3, h4{
 }
 
 .main{
-    background: #eaebf0 url(../img/pattern.png) repeat;
+    
     padding-bottom: 48px;
 }
 
@@ -92,45 +94,47 @@ h2, p, h3, h4{
   outline: none;
   border: none;
 }
+.main-top_btn:hover{
+  opacity: 0.8;
+}
 
-.main-top_btn a{
+.main-top_btn-link{
     color: #fff;
     padding: 13px 31px;
     font-size: 1rem;
     line-height: 1;
 }
 
-.main-content{
-    padding-bottom: 3rem;
-    text-align: center;
+.main-content:hover{
+  box-shadow: 4px 2px 4px rgba(2,2,2,.2);
 }
 
-.Bitmap {
-  width: 536px;
-  height: 350px;
-  object-fit: contain;
+.main-content{
+    margin-bottom: 3rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 .main-content_img{
-    display: inline-block;
-    max-width: 536px;
-    margin-right: -4px;
-    vertical-align: top;
-}
+    height: 350px;
+    width: 468px;
 
+}
 .main-content_info{
     background-color: #fff;
-    height: 302px;
-    padding: 24px 32px;
-    max-width: 600px;
-    display: inline-block;
-    margin-right: -4px;
-    vertical-align: top;
+    max-width: 700px;
+    width: 100%;
     text-align: left;
+    padding: 1.5rem 100px 0 2rem;
+    border-bottom: 2px solid #646971;
 }
 
-
 .main-content_info-place {
-  font-family: Monaco;
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
   font-size: 1rem;
   text-align: left;
   color: #646971;
@@ -140,7 +144,6 @@ h2, p, h3, h4{
   font-size: 40px;
   font-weight: bold;
   line-height: 1.4;
-  text-align: left;
   color: #000000;
   padding-top: 24px;
   padding-bottom: 8px;
@@ -150,7 +153,6 @@ h2, p, h3, h4{
 .main-content_info-text{
   font-size: 1rem;
   line-height: 1.5;
-  text-align: left;
   color: #3e4247;
 }
 
@@ -203,7 +205,9 @@ footer{
   margin-top: 8px;
   height: 22px;
 }
-
+.footer-link:hover{
+  opacity: 0.8;
+}
 .Combined-Shape {
   width: 8.8px;
   height: 8px;
