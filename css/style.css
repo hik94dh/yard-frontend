@@ -4,50 +4,58 @@ body, html {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
+
 :root {
   --charcoal-grey: #3e4247;
 }
-body{
-    min-width: 320px;
-    background: #eaebf0 url(../img/pattern.png) repeat;
 
-}
-header{
-    padding: 20px 0;
-    background-color: #ffffff;
-}
-h2, p, h3, h4{
-    margin: 0;
+body {
+  min-width: 320px;
+  background: #eaebf0 url(../img/pattern.png) repeat;
 }
 
-.container{
-    max-width: 1168px;
-    margin: 0 auto;
+header {
+  padding: 20px 0;
+  background-color: #ffffff;
 }
+
+h2, p, h3, h4 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
 .compass-logo {
   width: 179.1px;
   height: 24px;
   object-fit: contain;
 }
-.header-menu{
-    margin-top: 4px;
-    text-align: right;
+
+.header-menu {
+  margin-top: 4px;
+  text-align: right;
 }
-.header-menu_link{
+
+.header-menu_link {
   font-size: 1rem;
   text-align: left;
   color: var(--charcoal-grey);
   margin-left: 2rem;
 }
-.header-menu_link:hover{
+
+.header-menu_link:hover {
   opacity: 0.8;
 }
 
-.subheader{
-    background-color: #161616;
+.subheader {
+  background-color: #161616;
 }
 
 .compass-development-logo {
@@ -57,34 +65,32 @@ h2, p, h3, h4{
   margin: 80px 0;
 }
 
-.main{
-    
-    padding-bottom: 48px;
+.main {
+  padding-bottom: 3rem;
 }
 
 .main-top{
-    max-width: 790px;
-    margin: 0 auto;
-    padding: 62px 0;
-    text-align: center;
+  max-width: 790px;
+  margin: 0 auto;
+  padding: 62px 0;
+  text-align: center;
 }
 
-.main-top_h2{
+.main-top_h2 {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--charcoal-grey);
   text-align: center;
   padding-bottom: 8px;
 }
-.main-top_p{
+
+.main-top_p {
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   color: var(--charcoal-grey);
   padding-bottom: 16px;
 }
-
-
 
 .main-top_btn {
   padding: 13px 0;
@@ -94,43 +100,45 @@ h2, p, h3, h4{
   outline: none;
   border: none;
 }
-.main-top_btn:hover{
+
+.main-top_btn:hover {
   opacity: 0.8;
 }
 
-.main-top_btn-link{
-    color: #fff;
-    padding: 13px 31px;
-    font-size: 1rem;
-    line-height: 1;
+.main-top_btn-link {
+  color: #fff;
+  padding: 13px 31px;
+  font-size: 1rem;
+  line-height: 1;
 }
 
-.main-content:hover{
+.main-content:hover {
   box-shadow: 4px 2px 4px rgba(2,2,2,.2);
 }
 
-.main-content{
-    margin-bottom: 3rem;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-       -ms-flex-pack: justify;
-    justify-content: space-between;
+.main-content {
+  margin-bottom: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+  justify-content: space-between;
 }
-.main-content_img{
-    height: 350px;
-    width: 468px;
 
+.main-content_img {
+  height: 350px;
+  width: 468px;
 }
-.main-content_info{
-    background-color: #fff;
-    max-width: 700px;
-    width: 100%;
-    text-align: left;
-    padding: 1.5rem 100px 0 2rem;
-    border-bottom: 2px solid #646971;
+
+.main-content_info {
+  background-color: #fff;
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+  padding: 1.5rem 100px 0 2rem;
+  border-bottom: 2px solid #646971;
 }
 
 .main-content_info-place {
@@ -140,7 +148,7 @@ h2, p, h3, h4{
   color: #646971;
 }
 
-.main-content_info-h3{
+.main-content_info-h3 {
   font-size: 40px;
   font-weight: bold;
   line-height: 1.4;
@@ -149,21 +157,18 @@ h2, p, h3, h4{
   padding-bottom: 8px;
 }
 
-
-.main-content_info-text{
+.main-content_info-text {
   font-size: 1rem;
   line-height: 1.5;
   color: #3e4247;
 }
 
-
-
-footer{
-     background-color: #111111;
-     padding: 32px 0;
+footer {
+   background-color: #111111;
+   padding: 32px 0;
 }
 
-.footer-h4{
+.footer-h4 {
   font-size: 14px;
   font-weight: bold;
   text-align: left;
@@ -172,7 +177,7 @@ footer{
   height: 22px;
 }
 
-.footer-p{
+.footer-p {
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -180,10 +185,12 @@ footer{
   height: 22px;
   padding-top: 4px;
 }
-.footer-number{
-    padding-top: 16px;
+
+.footer-number {
+  padding-top: 16px;
 }
-.footer-info{
+
+.footer-info {
   font-size: 11px;
   font-weight: 300;
   text-align: left;
@@ -191,12 +198,14 @@ footer{
   line-height: 1.6;
   padding-top: 92px;
 }
-.footer-hr{
-      border-top: 2px solid #3e4247;
-      width: 172px;
-      padding-top: 18px;
+
+.footer-hr {
+    border-top: 2px solid #3e4247;
+    width: 172px;
+    padding-top: 18px;
 }
-.footer-link{
+
+.footer-link {
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -205,15 +214,18 @@ footer{
   margin-top: 8px;
   height: 22px;
 }
-.footer-link:hover{
+
+.footer-link:hover {
   opacity: 0.8;
 }
+
 .Combined-Shape {
   width: 8.8px;
   height: 8px;
   object-fit: contain;
   margin-left: 8px;
 }
-.footer-link_all{
-    margin-top: 16px;
+
+.footer-link_all {
+  margin-top: 16px;
 }
