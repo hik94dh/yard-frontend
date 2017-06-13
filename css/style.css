@@ -44,7 +44,6 @@ h2, p, h3, h4 {
 }
 
 .header-menu_link {
-  font-size: 1rem;
   text-align: left;
   color: var(--charcoal-grey);
   margin-left: 2rem;
@@ -72,7 +71,7 @@ h2, p, h3, h4 {
 .main-top{
   max-width: 790px;
   margin: 0 auto;
-  padding: 62px 0;
+  padding: 5rem 0 2rem;
   text-align: center;
 }
 
@@ -85,7 +84,6 @@ h2, p, h3, h4 {
 }
 
 .main-top_p {
-  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   color: var(--charcoal-grey);
@@ -108,7 +106,6 @@ h2, p, h3, h4 {
 .main-top_btn-link {
   color: #fff;
   padding: 13px 31px;
-  font-size: 1rem;
   line-height: 1;
 }
 
@@ -117,7 +114,7 @@ h2, p, h3, h4 {
 }
 
 .main-content {
-  margin-bottom: 3rem;
+  margin: 3rem auto;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,6 +122,7 @@ h2, p, h3, h4 {
   -webkit-box-pack: justify;
      -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 1176px;
 }
 
 .main-content_img {
@@ -137,30 +135,29 @@ h2, p, h3, h4 {
   max-width: 700px;
   width: 100%;
   text-align: left;
-  padding: 1.5rem 100px 0 2rem;
+  padding: 1.5rem 2rem 0 2rem;
   border-bottom: 2px solid #646971;
 }
 
 .main-content_info-place {
   font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size: 1rem;
   text-align: left;
   color: #646971;
 }
 
 .main-content_info-h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 1;
   color: #000000;
   padding-top: 24px;
   padding-bottom: 8px;
 }
 
 .main-content_info-text {
-  font-size: 1rem;
   line-height: 1.5;
   color: #3e4247;
+  padding-top: 8px;
 }
 
 footer {
