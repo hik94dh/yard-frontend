@@ -75,7 +75,7 @@ h2, p, h3, h4 {
   text-align: center;
 }
 
-.main-top_h2 {
+.main-top_title {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--charcoal-grey);
@@ -109,11 +109,11 @@ h2, p, h3, h4 {
   line-height: 1;
 }
 
-.main-content:hover {
+.main-card:hover {
   box-shadow: 4px 2px 4px rgba(2,2,2,.2);
 }
 
-.main-content {
+.main-card {
   margin: 3rem auto;
   text-align: center;
   display: -webkit-box;
@@ -125,12 +125,12 @@ h2, p, h3, h4 {
   max-width: 1176px;
 }
 
-.main-content_img {
+.main-card_img {
   height: 350px;
   width: 468px;
 }
 
-.main-content_info {
+.main-card_info {
   background-color: #fff;
   max-width: 700px;
   width: 100%;
@@ -139,13 +139,13 @@ h2, p, h3, h4 {
   border-bottom: 2px solid #646971;
 }
 
-.main-content_info-place {
+.main-card_info-place {
   font-family: monaco, Consolas, 'Lucida Console', monospace;
   text-align: left;
   color: #646971;
 }
 
-.main-content_info-h3 {
+.main-card_info-title {
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1;
@@ -154,7 +154,7 @@ h2, p, h3, h4 {
   padding-bottom: 8px;
 }
 
-.main-content_info-text {
+.main-card_info-text {
   line-height: 1.5;
   color: #3e4247;
   padding-top: 8px;
@@ -165,7 +165,7 @@ footer {
    padding: 32px 0;
 }
 
-.footer-h4 {
+.footer-title {
   font-size: 14px;
   font-weight: bold;
   text-align: left;
@@ -174,7 +174,7 @@ footer {
   height: 22px;
 }
 
-.footer-p {
+.footer-contact {
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -202,7 +202,7 @@ footer {
     padding-top: 18px;
 }
 
-.footer-link {
+.footer-menu {
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -212,17 +212,19 @@ footer {
   height: 22px;
 }
 
-.footer-link:hover {
+.footer-menu:hover {
   opacity: 0.8;
 }
 
-.Combined-Shape {
+.combined-shape {
   width: 8.8px;
   height: 8px;
   object-fit: contain;
-  margin-left: 8px;
+  position: relative;
+  left: 8px
+  
 }
 
-.footer-link_all {
+.footer-menu_all {
   margin-top: 16px;
 }
