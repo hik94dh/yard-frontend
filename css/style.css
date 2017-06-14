@@ -1,9 +1,3 @@
-body{
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased;
-  -webkit-line-break: after-white-space;
-}
-
 body, html {
   width: 100%;
   height: 100%;
@@ -22,9 +16,12 @@ a {
 body {
   min-width: 320px;
   background: #eaebf0 url(../img/pattern.png) repeat;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-line-break: after-white-space;
 }
 
-header {
+.header {
   padding: 20px 0;
   background-color: #ffffff;
 }
@@ -59,7 +56,7 @@ h2, p, h3, h4 {
   opacity: 0.8;
 }
 
-.subheader {
+.promo {
   background-color: #161616;
 }
 
@@ -71,17 +68,13 @@ h2, p, h3, h4 {
 }
 
 .main {
-  padding-bottom: 3rem;
-}
-
-.main-top {
   max-width: 790px;
   margin: 0 auto;
   padding: 5rem 0 2rem;
   text-align: center;
 }
 
-.main-top_title {
+.main_title {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--charcoal-grey);
@@ -89,14 +82,14 @@ h2, p, h3, h4 {
   padding-bottom: 8px;
 }
 
-.main-top_p {
+.main_description {
   line-height: 1.5;
   text-align: center;
   color: var(--charcoal-grey);
   padding-bottom: 16px;
 }
 
-.main-top_btn {
+.main_btn {
   padding: 13px 0;
   text-align: center;
   background-color: #000000;
@@ -105,21 +98,25 @@ h2, p, h3, h4 {
   border: none;
 }
 
-.main-top_btn:hover {
+.main_btn:hover {
   opacity: 0.8;
 }
 
-.main-top_btn-link {
+.main_btn-link {
   color: #fff;
   padding: 13px 31px;
   line-height: 1;
 }
 
-.main-card:hover {
+.card:hover {
   box-shadow: 4px 2px 4px rgba(2,2,2,.2);
 }
 
-.main-card {
+.card:last-child {
+  margin-bottom: 6rem;
+}
+
+.card {
   margin: 3rem auto;
   text-align: center;
   display: -webkit-box;
@@ -131,12 +128,12 @@ h2, p, h3, h4 {
   max-width: 1184px;
 }
 
-.main-card_img {
+.card-img {
   height: 350px;
   width: 484px;
 }
 
-.main-card_info {
+.card-info {
   background-color: #fff;
   max-width: 700px;
   width: 100%;
@@ -145,13 +142,13 @@ h2, p, h3, h4 {
   border-bottom: 2px solid #646971;
 }
 
-.main-card_info-place {
+.card-info_place {
   font-family: monaco, Consolas, 'Lucida Console', monospace;
   text-align: left;
   color: #646971;
 }
 
-.main-card_info-title {
+.card-info_title {
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1;
@@ -160,13 +157,13 @@ h2, p, h3, h4 {
   padding-bottom: 8px;
 }
 
-.main-card_info-text {
+.card-info_text {
   line-height: 1.5;
   color: #3e4247;
   padding-top: 8px;
 }
 
-footer {
+.footer {
    background-color: #111111;
    padding: 32px 0;
 }
