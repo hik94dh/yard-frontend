@@ -34,7 +34,7 @@ h2, p, h3, h4 {
 }
 
 .container {
-  max-width: 1168px;
+  max-width: 1184px;
   margin: 0 auto;
 }
 
@@ -128,12 +128,12 @@ h2, p, h3, h4 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1176px;
+  max-width: 1184px;
 }
 
 .main-card_img {
   height: 350px;
-  width: 468px;
+  width: 484px;
 }
 
 .main-card_info {
