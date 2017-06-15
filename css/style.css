@@ -429,6 +429,8 @@ h1, h2, h3, h4, p {
 }
 .map{
   margin-top: -8rem;
+  box-shadow: 4px 2px 4px rgba(2,2,2,.2);
+  width: 100%;
 }
 .map-result{
   margin-top: -8rem;
