@@ -67,14 +67,14 @@ h2, p, h3, h4 {
   margin: 80px 0;
 }
 
-.main {
+.content {
   max-width: 790px;
   margin: 0 auto;
   padding: 5rem 0 2rem;
   text-align: center;
 }
 
-.main_title {
+.content_title {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--charcoal-grey);
@@ -82,14 +82,14 @@ h2, p, h3, h4 {
   padding-bottom: 8px;
 }
 
-.main_description {
+.content_description {
   line-height: 1.5;
   text-align: center;
   color: var(--charcoal-grey);
   padding-bottom: 16px;
 }
 
-.main_btn {
+.content_btn {
   padding: 13px 0;
   text-align: center;
   background-color: #000000;
@@ -98,11 +98,11 @@ h2, p, h3, h4 {
   border: none;
 }
 
-.main_btn:hover {
+.content_btn:hover {
   opacity: 0.8;
 }
 
-.main_btn-link {
+.content_btn-link {
   color: #fff;
   padding: 13px 31px;
   line-height: 1;
