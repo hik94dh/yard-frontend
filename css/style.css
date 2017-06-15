@@ -28,6 +28,14 @@ body {
 }
 
 h1, h2, h3, h4, p {
+}
+
+.header {
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+h2, p, h3, h4 {
   margin: 0;
 }
 
@@ -51,6 +59,8 @@ h1, h2, h3, h4, p {
   text-align: left;
   margin-left: 2rem;
   color: var(--charcoal-grey);
+  color: var(--charcoal-grey);
+  margin-left: 2rem;
 }
 
 .header-menu_link:hover {
@@ -78,6 +88,7 @@ h1, h2, h3, h4, p {
 .hero-unit_title {
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--charcoal-grey);
   text-align: center;
   padding-bottom: 8px;
 }
@@ -85,6 +96,7 @@ h1, h2, h3, h4, p {
 .hero-unit_description {
   line-height: 1.5;
   text-align: center;
+  color: var(--charcoal-grey);
   padding-bottom: 16px;
 }
 
