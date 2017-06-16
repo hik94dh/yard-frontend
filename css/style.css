@@ -229,7 +229,7 @@ h1, h2, h3, h4, p {
   height: 8px;
   object-fit: contain;
   position: relative;
-  left: 8px
+  left: 8px;
 }
 
 .footer-menu_all {
