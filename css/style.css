@@ -113,7 +113,8 @@ h1, h2, h3, h4, p {
 }
 
 .card:hover {
-  box-shadow: 4px 2px 4px rgba(2,2,2,.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+  transition: .5s cubic-bezier(0, 1, 1, 1);
 }
 
 .card:last-child {
