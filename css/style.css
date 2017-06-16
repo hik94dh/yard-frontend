@@ -27,7 +27,7 @@ body {
   background-color: #ffffff;
 }
 
-.header_wrapper {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,8 +168,8 @@ h1, h2, h3, h4, p {
 }
 
 .footer {
-   background-color: #111111;
-   padding: 32px 0;
+  background-color: #111111;
+  padding: 32px 0;
 }
 
 .footer-title {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, p {
   padding-top: 92px;
 }
 
-.footer-hr {
+.footer-line {
   border-top: 2px solid #3e4247;
   max-width: 172px;
   padding-top: 18px;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, p {
   height: 22px;
 }
 
-.footer-menu:hover {
+.footer-menu_link:hover {
   opacity: 0.8;
 }
 
