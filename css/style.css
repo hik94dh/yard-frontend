@@ -27,7 +27,7 @@ body {
   background-color: #ffffff;
 }
 
-.header_wrapper{
+.header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,6 +63,7 @@ h1, h2, h3, h4, p {
 
 .promo {
   background-color: #161616;
+  text-align: center;
 }
 
 .promo-logo {
@@ -208,7 +209,7 @@ h1, h2, h3, h4, p {
   padding-top: 18px;
 }
 
-.footer-menu {
+.footer-menu_link {
   font-size: 14px;
   font-weight: 300;
   text-align: left;
@@ -222,13 +223,12 @@ h1, h2, h3, h4, p {
   opacity: 0.8;
 }
 
-.combined-shape {
+.arrow {
   width: 8.8px;
   height: 8px;
   object-fit: contain;
   position: relative;
   left: 8px
-  
 }
 
 .footer-menu_all {

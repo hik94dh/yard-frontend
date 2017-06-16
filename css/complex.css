@@ -1,28 +1,28 @@
-.subheader{
+.subheader {
   border-top: 1px solid #eaebf0;
   background-color: #fff;
   padding: 1.5rem 0 1rem;
 }
 
-.subheader-wrapper{
+.subheader-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.subheader-title{
+.subheader-title {
   font-size: 2rem;
   font-family: 'Philosopher', sans-serif;
   margin-bottom: .5rem;
 }
 
-.subheader-adress{
+.subheader-adress {
   font-size: 14px;
   font-weight: 300;
   color: #a9afb6;
 }
 
-.subheader-btn{
+.subheader-btn {
   border: 1px solid #e0e0e1;
   border-radius: 2px;
   padding: 8px 16px;
@@ -33,11 +33,11 @@
   color: #00779a;
 }
 
-.gallery{
+.gallery {
   background-color: #fff;
 }
 
-.gallery-img_wrap{
+.gallery-img_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,16 +46,16 @@
   overflow-x: auto;
 }
 
-.gallery-img{
+.gallery-img {
   height: 400px;
 }
 
-.gallery-btn_wrap{
+.gallery-btn_wrap {
   position: relative;
   top: -5rem;
 }
 
-.gallery-btn{
+.gallery-btn {
   border: none;
   border-radius: 2px;
   background-color: #00779a;
@@ -67,23 +67,22 @@
   opacity: 0.8;
 }
 
-.gallery-btn:hover{
+.gallery-btn:hover {
   opacity: 1
 }
 
-.summary{
+.summary {
   background-color: #fff;
   padding-bottom: 4rem;
-
 }
 
-.summary-title{
+.summary-title {
   font-size: 1.5rem;
   font-family: 'Philosopher', sans-serif;
   margin-bottom: 1rem;
 }
 
-.summary-title_about{
+.summary-title_about {
   color: #a9afb6;
   font-family: 'Fira Sans', sans-serif;
   display: block;
@@ -92,16 +91,16 @@
 
 }
 
-.summary-hr{
+.summary-hr {
   border-top: 1px solid #e0e0e1;
   padding-top: 2rem;
 }
 
-.summary-feature_wrap{
+.summary-feature_wrap {
   padding-top: 2rem;
 }
 
-.summary-feature{
+.summary-feature {
   display: flex;
   margin: 4px 0;
 }
@@ -109,7 +108,6 @@
 .summary-feature_title {
   width: 50%;
   color: #a9afb6;
- 
 }
 
 .summary-feature_amount {
@@ -117,43 +115,50 @@
   font-weight: 500;
 }
 
-.summary-description_wrap{
+.summary-description_wrap {
   padding-top: 3rem;
-  padding-bottom: 1.5rem;
 }
-.summary-text{
-  padding-bottom: 8px;
+.summary-text {
+  padding-bottom: 1.5rem;
   line-height: 1.5;
 }
 
-.apartments{
+.apartments {
   background-color: #f4f5f9;
   padding: 4rem
 }
 
-.apartments-title{
+.apartments-title {
   font-size: 1.5rem;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
 }
-.apartments-card{
+
+.apartments-card {
   background-color: #fff;
   padding: 1.5rem 2rem;
   margin-top: 1.5rem;
   max-width: 384px;
   text-align: left;
 }
-.apartments-card_title{
+
+.apartments-card_title {
   font-size: 20px;
   font-family: 'Philosopher', sans-serif;
 }
-.apartments-card_prop{
+
+.apartments-card_prop {
   color: #a9afb6;
   line-height: 1.38;
   padding-top: 1.5rem;
   padding-bottom: .5rem;
 }
-.apartments-card_btn{
+
+.apartments-card_btn_wrap {
+  text-align: center; 
+}
+
+.apartments-card_btn {
   margin-top: 2rem;
   border-radius: 2px;
   background-color: #000000;
@@ -162,16 +167,16 @@
   padding: 12px 2.5rem
 }
 
-.guide{
+.guide {
   background-color: #3e4247;
   padding: 4rem 0 12rem;
 }
 
-.guide-img{
+.guide-img {
   width: 100%
 }
 
-.guide-place{
+.guide-place {
   font-family: 'Philosopher', sans-serif;
   font-size: 1.5rem;
   color: #a9afb6;
@@ -180,7 +185,7 @@
 
 }
 
-.guide-title{
+.guide-title {
   font-family: 'Philosopher', sans-serif;
   font-size: 3rem;
   color: #fff;
@@ -188,34 +193,36 @@
   padding: 3rem 0;
 }
 
-.guide-show{
+.guide-show {
   color: #00779a;
 }
 
-.map-wrap{
+.map-wrap {
   background-color: #fff;
   padding-bottom: 2rem;
 }
-.map{
+
+.map {
   margin-top: -8rem;
   box-shadow: 4px 2px 4px rgba(2,2,2,.2);
   width: 100%;
 }
-.map-result{
+
+.map-result {
   margin-top: -8rem;
   background-color: #fff;
   height: 306px;
   box-shadow: 4px 2px 4px rgba(2,2,2,.2);
 }
 
-.map-result_title{
+.map-result_title {
   font-weight: 500;
   padding-left: 1.5rem;
   padding-top: 1.5rem;
   line-height: 1.4;
 }
 
-.map-result_prop{
+.map-result_prop {
    color: #a9afb6;
    padding-top: .5rem;
    padding-bottom: 1.5rem;
@@ -223,6 +230,7 @@
    padding-left: 1.5rem;
    line-height: 1.4;
 }
-.map-result_prop:last-child{
+
+.map-result_prop:last-child {
   border-bottom: none;
 }
