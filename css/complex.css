@@ -1,0 +1,236 @@
+.subheader {
+  border-top: 1px solid #eaebf0;
+  background-color: #fff;
+  padding: 1.5rem 0 1rem;
+}
+
+.subheader-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.subheader-title {
+  font-size: 2rem;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: .5rem;
+}
+
+.subheader-adress {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9afb6;
+}
+
+.subheader-btn {
+  border: 1px solid #e0e0e1;
+  border-radius: 2px;
+  padding: 8px 16px;
+  background-color: #fff;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 300;
+  color: #00779a;
+}
+
+.gallery {
+  background-color: #fff;
+}
+
+.gallery-img_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.gallery-img {
+  height: 400px;
+}
+
+.gallery-btn_wrap {
+  position: relative;
+  top: -5rem;
+}
+
+.gallery-btn {
+  border: none;
+  border-radius: 2px;
+  background-color: #00779a;
+  color: #fff;
+  line-height: 1;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 8px 16px;
+  opacity: 0.8;
+}
+
+.gallery-btn:hover {
+  opacity: 1;
+}
+
+.summary {
+  background-color: #fff;
+  padding-bottom: 4rem;
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.summary-title_about {
+  color: #a9afb6;
+  font-family: 'Fira Sans', sans-serif;
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.summary-line {
+  border-top: 1px solid #e0e0e1;
+  padding-top: 2rem;
+}
+
+.summary-feature_wrap {
+  padding-top: 2rem;
+}
+
+.summary-feature {
+  display: flex;
+  margin: 4px 0;
+}
+
+.summary-feature_title {
+  width: 50%;
+  color: #a9afb6;
+}
+
+.summary-feature_amount {
+  width: 50%;
+  font-weight: 500;
+}
+
+.summary-description_wrap {
+  padding-top: 3rem;
+}
+
+.summary-text {
+  padding-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.apartments {
+  background-color: #f4f5f9;
+  padding: 4rem;
+}
+
+.apartments-title {
+  font-size: 1.5rem;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+
+.apartments-card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
+  max-width: 384px;
+  text-align: left;
+}
+
+.apartments-card_title {
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.apartments-card_prop {
+  color: #a9afb6;
+  line-height: 1.38;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.apartments-card_btn_wrap {
+  text-align: center; 
+}
+
+.apartments-card_btn {
+  margin-top: 2rem;
+  border-radius: 2px;
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  padding: 12px 2.5rem
+}
+
+.guide {
+  background-color: #3e4247;
+  padding: 4rem 0 12rem;
+}
+
+.guide-img {
+  width: 100%
+}
+
+.guide-place {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.5rem;
+  color: #a9afb6;
+  font-weight: bold;
+  padding-top: 7rem;
+
+}
+
+.guide-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.25;
+  padding: 3rem 0;
+}
+
+.guide-show {
+  color: #00779a;
+}
+
+.map-wrap {
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+
+.map {
+  margin-top: -8rem;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.map-result {
+  margin-top: -8rem;
+  background-color: #fff;
+  height: 306px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.map-result_title {
+  font-weight: 500;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  line-height: 1.4;
+}
+
+.map-result_prop {
+  color: #a9afb6;
+  padding-top: .5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e1;
+  padding-left: 1.5rem;
+  line-height: 1.4;
+}
+
+.map-result_prop:last-child {
+  border-bottom: none;
+}
