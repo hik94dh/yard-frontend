@@ -133,10 +133,10 @@
 
 .summary-text {
   padding-bottom: .5rem;
-  padding-top: 3rem;
+  line-height: 1.5;
 }
 
-.summary-text {
+.summary-description_text {
   padding-bottom: 1.5rem;
   line-height: 1.5;
 }
@@ -183,7 +183,6 @@
   border: none;
   color: #fff;
   padding: 0.8125rem 2rem 0.8125rem 2rem;
-  padding: 12px 2.5rem
 }
 
 .guide {
@@ -193,7 +192,7 @@
 
 .guide-img {
   width: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .guide-place {
