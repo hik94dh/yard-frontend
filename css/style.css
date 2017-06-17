@@ -37,17 +37,11 @@ h1, h2, h3, h4, p {
   margin: 0;
 }
 
-.container {
-  max-width: 1184px;
-  margin: 0 auto;
-}
-
 .header-logo {
   width: 179.1px;
   height: 24px;
   object-fit: contain;
 }
-
 
 .header-menu_link {
   text-align: left;
