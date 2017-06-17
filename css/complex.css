@@ -103,11 +103,13 @@
 
 .summary-feature_wrap {
   padding-top: .5rem;
+  padding-top: 2rem;
 }
 
 .summary-feature {
   display: flex;
   margin: 0 0 11px;
+  margin: 4px 0;
 }
 
 .summary-feature_title {
@@ -131,6 +133,11 @@
 
 .summary-text {
   padding-bottom: .5rem;
+  padding-top: 3rem;
+}
+
+.summary-text {
+  padding-bottom: 1.5rem;
   line-height: 1.5;
 }
 
@@ -176,6 +183,7 @@
   border: none;
   color: #fff;
   padding: 0.8125rem 2rem 0.8125rem 2rem;
+  padding: 12px 2.5rem
 }
 
 .guide {
@@ -185,6 +193,7 @@
 
 .guide-img {
   width: 100%;
+  width: 100%
 }
 
 .guide-place {
