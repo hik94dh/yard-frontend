@@ -54,7 +54,7 @@
 
 .gallery-btn_wrap {
   position: relative;
-  top: -4rem;
+  top: -2.5rem;
 }
 
 .gallery-btn {
@@ -65,7 +65,7 @@
   line-height: 1;
   font-size: 10px;
   font-weight: 300;
-  padding: 8px 16px;
+  padding: 7px 15px;
   opacity: 0.8;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -92,6 +92,10 @@
   line-height: 1.13;
 }
 
+.summary-title_left {
+  padding-left: 22px;
+}
+
 .summary-title_about {
   color: #a9afb6;
   font-family: 'Fira Sans', sans-serif;
@@ -112,13 +116,13 @@
 }
 
 .summary-feature_title {
-  width: 50%;
+  width: 46%;
   color: #a9afb6;
   line-height: 1.38;
 }
 
 .summary-feature_amount {
-  width: 50%;
+  width: 53%;
   font-weight: 500;
   line-height: 1.56;
 }
@@ -139,19 +143,20 @@
 
 .apartments {
   background-color: #f4f5f9;
-  padding: 4rem;
+  padding: 4rem 4rem 3.8rem;
 }
 
 .apartments-title {
   font-size: 1.5rem;
   font-family: 'Philosopher', sans-serif;
   text-align: center;
+  line-height: 1.5;
 }
 
 .apartments-card {
   background-color: #fff;
   padding: 1.5rem 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   max-width: 384px;
   text-align: left;
 }
@@ -169,7 +174,7 @@
 }
 
 .apartments-card_amount{
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .apartments-card_btn_wrap {
