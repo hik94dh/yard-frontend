@@ -37,24 +37,18 @@ h1, h2, h3, h4, p {
   margin: 0;
 }
 
-.container {
-  max-width: 1184px;
-  margin: 0 auto;
-}
-
 .header-logo {
   width: 179.1px;
   height: 24px;
   object-fit: contain;
 }
 
-
 .header-menu_link {
   text-align: left;
   margin-left: 2rem;
   color: var(--charcoal-grey);
   color: var(--charcoal-grey);
-  margin-left: 2rem;
+  margin-left: 1.8rem;
 }
 
 .header-menu_link:hover {
@@ -136,6 +130,7 @@ h1, h2, h3, h4, p {
 .card-img {
   height: 350px;
   width: 484px;
+  flex-shrink: 0;
 }
 
 .card-info {
@@ -216,7 +211,7 @@ h1, h2, h3, h4, p {
   text-align: left;
   color: #ffffff;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 6px;
   height: 22px;
 }
 
