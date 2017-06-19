@@ -15,7 +15,7 @@ a {
 
 body {
   min-width: 320px;
-  background: #eaebf0;
+  background: #eaebf0 url(i/pattern.png) repeat;;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
   color: var(--charcoal-grey);

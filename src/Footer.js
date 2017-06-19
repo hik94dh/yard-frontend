@@ -1,6 +1,5 @@
 import React from 'react';
 import arrow from './i/arrow.svg';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 
 export default () => {
   return (
@@ -16,19 +15,19 @@ export default () => {
             <div className="col-xs-2 col-xs-offset-2">
               <h4 className="footer-title footer-line">Жилые комплексы</h4>
               <nav>
-                <a href="#" className="footer-menu_link">ВТБ Арена Парк</a>
-                <a href="#" className="footer-menu_link">Садовые кварталы</a>
-                <a href="#" className="footer-menu_link">Резиденция Монэ</a>
-                <a href="#" className="footer-menu_link footer-menu_all">Все ЖК Москвы
-                  <img src={arrow} className="arrow" />
+                <a href="" className="footer-menu_link">ВТБ Арена Парк</a>
+                <a href="" className="footer-menu_link">Садовые кварталы</a>
+                <a href="" className="footer-menu_link">Резиденция Монэ</a>
+                <a href="" className="footer-menu_link footer-menu_all">Все ЖК Москвы
+                  <img src={arrow} className="arrow" alt="arrow" />
                 </a>
               </nav>
             </div>
             <div className="col-xs-2">
               <h4 className="footer-title footer-line">Компания</h4>
               <nav className="footer-menu">
-                <a href="#" className="footer-menu_link">Команда</a>
-                <a href="#" className="footer-menu_link">О компании</a>
+                <a href="" className="footer-menu_link">Команда</a>
+                <a href="" className="footer-menu_link">О компании</a>
               </nav>
             </div>
           </div>
