@@ -6,29 +6,23 @@ import {
 import styled from 'styled-components';
 
 import Header from './Header';
-import Footer from './Footer';
+import Promo from './Promo';
 import Main from './Main';
-import PromoLogo from './i/promo-logo.svg';
-
+import Footer from './Footer';
 
 import './App.css';
-
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <section className="promo">
-          <div className="container">
-            <img src={PromoLogo} className="promo-logo" />
-          </div>
-        </section>
+        <Promo />
         <Main />
         <Footer />
       </div>
     );
   }
-}
+};
 
 export default App;
