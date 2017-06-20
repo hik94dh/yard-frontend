@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Promo from './Promo';
-import Main from './Main';
 import Footer from './Footer';
 import './App.css';
+import Complexes from './Complexes/Complexes'
+
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Promo />
-        <Main />
-        <Footer />
-      </div>
-    );
-  }
-}
+      <Router>
+        <div className="App">
+          <Header />
+          <Route exact path="/" component={Complexes} />
+          <Footer />
+        </div>
+      </Router>
+    )
+  };
+};
 
 export default App;
