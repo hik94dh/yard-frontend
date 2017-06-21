@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from './Card';
+import Cards from './Cards';
 import HeroUnit from './HeroUnit';
 import Promo from './Promo';
 
@@ -9,7 +9,7 @@ class Complexes extends Component {
       <main>
         <Promo />
         <HeroUnit />
-        <Card />
+        <Cards />
       </main>
     )
   }
