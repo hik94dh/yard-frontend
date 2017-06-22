@@ -20,39 +20,39 @@ const Text = styled.p`
 
 export default () => {
   return (
-      <Section>
-        <Title>Инфраструктура</Title>
-        <Row>
-          <Col xs={2}>
-            <Text>Бассейн</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Детский сад</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Частная школа</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Бассейн</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Детский сад</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Частная школа</Text>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={2}>
-            <Text>Частная школа</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Частная школа</Text>
-          </Col>
-          <Col xs={2}>
-            <Text>Частная школа</Text>
-          </Col>
-        </Row>
-      </Section>
+    <Section>
+      <Title>Инфраструктура</Title>
+      <Row>
+        <Col xs={2}>
+          <Text>Бассейн</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Детский сад</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Частная школа</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Бассейн</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Детский сад</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Частная школа</Text>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={2}>
+          <Text>Частная школа</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Частная школа</Text>
+        </Col>
+        <Col xs={2}>
+          <Text>Частная школа</Text>
+        </Col>
+      </Row>
+    </Section>
   );
 };

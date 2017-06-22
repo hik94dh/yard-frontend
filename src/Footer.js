@@ -91,14 +91,14 @@ export default () => {
             <Contact>+7 (999) 821-14-88</Contact>
           </Col>
           <Col xs={2} xsOffset={2}>
-              <Line />
-              <Title>Жилые комплексы</Title>
-              <Link href="" >ВТБ Арена Парк</Link>
-              <Link href="" >Садовые кварталы</Link>
-              <Link href="" >Резиденция Монэ</Link>
-              <ApartmentLink href="">Все ЖК Москвы
-                <ArrowImg src={arrow} alt="arrow" />
-              </ApartmentLink>
+            <Line />
+            <Title>Жилые комплексы</Title>
+            <Link href="" >ВТБ Арена Парк</Link>
+            <Link href="" >Садовые кварталы</Link>
+            <Link href="" >Резиденция Монэ</Link>
+            <ApartmentLink href="">Все ЖК Москвы
+              <ArrowImg src={arrow} alt="arrow" />
+            </ApartmentLink>
           </Col>
           <Col xs={2}>
             <Line />

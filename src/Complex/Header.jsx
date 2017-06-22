@@ -29,10 +29,10 @@ const Small = styled.small`
 
 export default () => {
   return (
-      <Header>
-        <Title>950 <Small class="summary-title_about">предложений</Small></Title>
-        <Title>John McAslan + Partners <Small>архитектор</Small></Title>
-        <Title>Группа «ПСН»<Small>застройщик</Small></Title>
-      </Header>
+    <Header>
+      <Title>950 <Small class="summary-title_about">предложений</Small></Title>
+      <Title>John McAslan + Partners <Small>архитектор</Small></Title>
+      <Title>Группа «ПСН»<Small>застройщик</Small></Title>
+    </Header>
   );
 };

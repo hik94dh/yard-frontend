@@ -31,68 +31,68 @@ const DD = styled.dd`
 
 export default () => {
   return (
-      <Section>
-        <Title>Характеристики</Title>
-        <Row>
-          <Col xs={4}>
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Статус:</Dt>
-              <DD>Квартиры</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Цены:</Dt>
-              <DD>от 5.3 до 143.5 млн</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-          <Col xs={4}> 
-            <Dl>
-              <Dt>Количество квартир:</Dt>
-              <DD>1 503</DD>
-            </Dl>
-          </Col>
-        </Row>
-      </Section>
+    <Section>
+    <Title>Характеристики</Title>
+    <Row>
+      <Col xs={4}>
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+    </Row>
+    <Row>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Статус:</Dt>
+          <DD>Квартиры</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+    </Row>
+    <Row>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Цены:</Dt>
+          <DD>от 5.3 до 143.5 млн</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+      <Col xs={4}> 
+        <Dl>
+          <Dt>Количество квартир:</Dt>
+          <DD>1 503</DD>
+        </Dl>
+      </Col>
+    </Row>
+    </Section>
   );
 };

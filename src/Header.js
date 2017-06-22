@@ -34,19 +34,19 @@ const Logo = styled.img`
 
 export default () => {
   return (
-      <Header>
-        <Grid>
-          <Wrapper>
-            <Link to='/'>
-              <Logo src={logo} className="App-logo" alt="logo" />
-            </Link>
-            <nav>
-              <NavLink href="">Buy</NavLink>
-              <NavLink href="">Rent</NavLink>
-              <NavLink href="">Our Agents</NavLink>
-            </nav>
-          </Wrapper>
-        </Grid>
-      </Header>
+    <Header>
+      <Grid>
+        <Wrapper>
+          <Link to='/'>
+            <Logo src={logo} className="App-logo" alt="logo" />
+          </Link>
+          <nav>
+            <NavLink href="">Buy</NavLink>
+            <NavLink href="">Rent</NavLink>
+            <NavLink href="">Our Agents</NavLink>
+          </nav>
+        </Wrapper>
+      </Grid>
+    </Header>
   );
 };
