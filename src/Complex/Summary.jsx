@@ -16,6 +16,7 @@ const Line = styled.hr`
   border: 0;
   height: 1px;
   background-color: #e0e0e1;
+  margin-bottom: 2.2rem;
 `;
 
 

@@ -61,8 +61,8 @@ export default (props) => {
     <Card to={`/complex/${props.id}`}>
       <Img src={process.env.PUBLIC_URL + '.i/build-' + props.id +'.jpg'}  alt="card" />
       <CardInfo>
-        <Geo>{props.geo}</Geo>
-        <Title>{props.title}</Title>
+        <Geo>{props.adress}</Geo>
+        <Title>{props.name}</Title>
         <Info>{props.text}</Info>
       </CardInfo>
     </Card>

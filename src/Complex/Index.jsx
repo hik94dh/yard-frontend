@@ -4,6 +4,9 @@ import './complex.css';
 import Subheader from "./Subheader";
 import Gallery from './Gallery';
 import Summary from './Summary';
+import Apartments from './Apartments';
+import Guide from './Guide';
+import Map from './Map';
 
 class Complex extends Component {
   render() {
@@ -12,6 +15,9 @@ class Complex extends Component {
         <Subheader />
         <Gallery />
         <Summary />
+        <Apartments />
+        <Guide />
+        <Map />
       </div>
     )
   }

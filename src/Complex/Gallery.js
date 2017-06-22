@@ -44,11 +44,11 @@ export default () => {
   return (
     <Section>
       <ImageWrap>
-        <Image src={process.env.PUBLIC_URL + '.i/complex-1' +'.png'}  alt="building" />
-        <Image src={process.env.PUBLIC_URL + '.i/complex-2' +'.png'}  alt="building" />
-        <Image src={process.env.PUBLIC_URL + '.i/complex-3' +'.png'}  alt="building" />
-        <Image src={process.env.PUBLIC_URL + '.i/complex-4' +'.png'}  alt="building" />
-        <Image src={process.env.PUBLIC_URL + '.i/complex-5' +'.png'}  alt="building" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-1' +'.png'}  alt="building" />
+        <Image src={process.env.PUBLIC_URL + '.i/gallery-2' +'.png'}  alt="building" />
+        <Image src={process.env.PUBLIC_URL + '..i/gallery-3' +'.png'}  alt="building" />
+        <Image src={process.env.PUBLIC_URL + './.i/gallery-4' +'.png'}  alt="building" />
+        <Image src={process.env.PUBLIC_URL + '../..i/gallery-5' +'.png'}  alt="building" />
       </ImageWrap>
       <Grid>
         <ButtonWrap>
@@ -56,5 +56,5 @@ export default () => {
         </ButtonWrap>
       </Grid>
     </Section>
-  );
+  )
 };
