@@ -20,7 +20,6 @@ const NavLink = styled.a`
   margin-left: 2rem;
   color: var(--charcoal-grey);
   margin-left: 1.8rem;
-
   &:hover {
     opacity: 0.8;
   }

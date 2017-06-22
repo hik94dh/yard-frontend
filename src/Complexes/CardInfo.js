@@ -5,12 +5,9 @@ import { Link } from 'react-router-dom'
 const Card = styled(Link)`
   margin: 3rem auto;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-
   &:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, .3);
     transition: .5s cubic-bezier(0, 1, 1, 1);
@@ -59,7 +56,7 @@ const Info = styled.p`
 export default (props) => {
   return (
     <Card to={`/complex/${props.id}`}>
-      <Img src={process.env.PUBLIC_URL + '.i/build-' + props.id +'.jpg'}  alt="card" />
+      <Img src={process.env.PUBLIC_URL + 'i/build-' + props.id +'.jpg'}  alt="card" />
       <CardInfo>
         <Geo>{props.adress}</Geo>
         <Title>{props.name}</Title>

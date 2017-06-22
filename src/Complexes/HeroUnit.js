@@ -34,7 +34,6 @@ const Button = styled.button`
   font-family: 'Fira Sans', sans-serif;
   padding: 13px 31px;
   line-height: 1;
-
   &:hover {
     opacity: 0.8;
   }

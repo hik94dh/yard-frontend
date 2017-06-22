@@ -34,7 +34,6 @@ const Prop= styled.p`
   border-bottom: 1px solid #e0e0e1;
   padding-left: 1.5rem;
   line-height: 1.4;
-
   &:last-child{
     border-bottom: none;
   }

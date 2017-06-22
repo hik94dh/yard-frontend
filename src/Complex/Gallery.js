@@ -12,8 +12,6 @@ const Image = styled.img`
 `;
 
 const ImageWrap = styled.div`
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
 `;
@@ -34,7 +32,6 @@ const Button = styled.button`
   padding: 7px 15px;
   opacity: 0.8;
   font-family: 'Fira Sans', sans-serif;
-
   &:hover {
     opacity: 1;
   }

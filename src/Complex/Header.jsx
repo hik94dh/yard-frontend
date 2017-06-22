@@ -12,7 +12,6 @@ const Title = styled.h2`
   margin-bottom: 1rem;
   margin-right: 3rem;
   line-height: 1.13;
-
   &:last-child {
     padding-left: 22px;
   }
