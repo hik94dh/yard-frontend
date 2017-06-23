@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Helmet } from "react-helmet";
 
 import Header from './Header';
 import Footer from './Footer';
@@ -17,6 +18,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Helmet>
+            <title>Сайт агентства недвижимости</title>
+          </Helmet>
           <Header />
           <Route exact path="/" component={Complexes} />
           <Route path="/complex" component={Complex} />
