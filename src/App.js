@@ -3,8 +3,9 @@ import './App.css';
 
 import Header from './Header';
 import Footer from './Footer';
-import Complexes from './Complexes/Index'
-import Complex from './Complex/Index';
+import Complexes from './Complexes/List/Index'
+import Complex from './Complexes/Show/Index';
+
 
 import {
   BrowserRouter as Router,
