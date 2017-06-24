@@ -56,7 +56,7 @@ const Info = styled.p`
 export default (props) => {
   return (
     <Card to={`/complex/${props.id}`}>
-      <Img src={`${process.env}/i/build-/` + props.id + `.jpg`}  alt="card" />
+      <Img src={process.env.PUBLIC_URL + 'i/build-/' + props.id + '.jpg'}  alt="card" />
       <CardInfo>
         <Geo>{props.adress}</Geo>
         <Title>{props.name}</Title>

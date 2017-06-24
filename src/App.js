@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet";
 
 import Header from './Header';
 import Footer from './Footer';
-import Complexes from './Complexes/List/Index'
-import Complex from './Complexes/Show/Index';
+import Complexes from './Complexes/List/'
+import Complex from './Complexes/Show/';
 
 
 import {
