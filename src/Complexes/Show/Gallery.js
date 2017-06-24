@@ -41,11 +41,11 @@ export default () => {
   return (
     <Section>
       <ImageWrap>
-        <Image src={process.env.PUBLIC_URL + 'i/gallery-1' + '.png'} alt="gallery" />
-        <Image src={process.env.PUBLIC_URL + 'i/gallery-2' + '.png'} alt="gallery" />
-        <Image src={process.env.PUBLIC_URL + 'i/gallery-3' + '.png'} alt="gallery" />
-        <Image src={process.env.PUBLIC_URL + 'i/gallery-4' + '.png'} alt="gallery" />
-        <Image src={process.env.PUBLIC_URL + 'i/gallery-5' + '.png'} alt="gallery" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-1.png'} alt="gallery" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-2.png'} alt="gallery" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-3.png'} alt="gallery" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-4.png'} alt="gallery" />
+        <Image src={process.env.PUBLIC_URL + 'i/gallery-5.png'} alt="gallery" />
       </ImageWrap>
       <Grid>
         <ButtonWrap>

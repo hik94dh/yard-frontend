@@ -45,7 +45,7 @@ export default () => {
       <Grid>
         <Row>
           <Col xs={6}>
-            <Image src={process.env.PUBLIC_URL + 'i/map' + '.jpg'} alt="map" />
+            <Image src={process.env.PUBLIC_URL + 'i/map.jpg'} alt="map" />
           </Col>
           <Col xs={6}>
             <Wrapper>

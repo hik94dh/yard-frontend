@@ -43,7 +43,7 @@ export default () => {
             <Link>Гид по Якиманке →</Link>
           </Col>
           <Col xs={6}>
-            <Image src={process.env.PUBLIC_URL + 'i/guide' + '.jpg'} alt="guide" />
+            <Image src={process.env.PUBLIC_URL + 'i/guide.jpg'} alt="guide" />
           </Col>
         </Row>
       </Grid>
