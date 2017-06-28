@@ -10,6 +10,7 @@ module.exports = {
       "jest": true
     },
     "rules": {
-      "react/prop-types": 0
+      "react/prop-types": 0,
+      "linebreak-style": 0
   }
 };
